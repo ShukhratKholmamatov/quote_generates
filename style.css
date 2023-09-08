@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff685;
+}
+
+.quote_card{
+    width: 50%;
+    height: 70vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    background:  #a28089;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.container .quote h1{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    font-weight: 200;
+}
+
+.author h3{
+    font-size: 23px;
+    color: rgb(214, 214, 214);
+    text-align: right;
+    margin-right: 40px;
+}
+
+button{
+    width: 50%;
+    height: 10%;
+    border-radius: 10px;
+    border: none;
+    background: #fff685;
+    transition: .5s;
+    font-size: 15px;
+    color: #a28089;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #eed600;
+}
